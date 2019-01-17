@@ -1,0 +1,182 @@
+body{
+    background-color: #242626;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    border-top: 4px solid #2BBBAD;
+}
+
+.btn-info, .btn-primary{
+    background-color: #2BBBAD;
+}
+.btn-info, .btn-primary:hover , .bg-hijau{
+    background-color: rgb(32, 141, 130);
+}
+
+.fontbrand{
+    font-family: 'Techno';
+    font-size: 35px;
+    text-shadow: 1px 2px 2px rgb(151, 151, 151);
+}
+.warna-banner{
+    background-color: #004d40;
+    color: white;
+    text-shadow: #9c9ea0;
+}
+.jarakcard3{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 0;
+}
+.coret{
+    text-decoration-line: line-through;
+}
+h1.shadows{
+    text-shadow: 2px 3px 1px #959ba5;
+}
+h3.shadows{
+    text-shadow: 4px 2px 3px #959ba5;
+}
+.carousel-caption, .warnatext{
+    font-family: 'Lucida Grande';
+    color: black;
+}
+.bg-warna{
+    background-color: #242626;
+}
+
+hr{
+    background-color: #fff;
+    height: 2px;
+    width: 90%;
+}
+h4.turun{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.page-footer{
+    background-color: #2BBBAD;
+    padding: 8px;
+}
+.fontfooter{
+    font-family: 'Britannic Bold';
+}
+.jarakcard{
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 0;
+}
+h3.jarakatas{
+    padding: 50px;
+}
+.scrollhiden{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h3.jarakatas2{
+    padding: 25px;
+}
+.fa-instagram{
+    color: black;
+}
+.fa-instagram:hover{
+    color: #bc2a8d;
+}
+.fa-facebook-square{
+    color: black;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-twitter-square{
+    color: black;
+}
+.fa-twitter-square:hover{
+    color: #0d6fca;
+}
+.fa-google-plus-square{
+    color: black;
+}
+.fa-google-plus-square:hover{
+    color: rgb(207, 17, 17);
+}
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+.btn-facebook {
+   color: white;
+   background-color: #3b5998;
+}
+.btn-vip{
+    color: white;
+    background-color: #f3ad22;
+}
+.btn-vip:hover{
+    color: white;
+    background-color: #FF8800;
+}
+.bg-ceckout{
+   background-color: rgb(206, 201, 201);
+}
+.post{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.post:hover .post-s{
+    width: 100%;
+}
+.post img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.post-s{
+    width: 0px;
+    height: 100%;
+    background: rgba(49, 241, 216, 0.322);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+.post-s h2{
+    color: rgb(233, 13, 13);
+    font-size: 50px;
+    font-family: 'Techno';
+    text-shadow: 2px 2px 3px #343435;
+    border-top: 7px solid rgb(26, 24, 24);
+    border-bottom: 7px solid rgb(26, 24, 24);
+}
+.jarakabout{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.warna-putih{
+    color: rgb(240, 240, 240);
+}
+
+.rata-tengah{
+    text-align: justify;
+}
+.background-putih{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

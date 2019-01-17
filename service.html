@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <link rel="icon" type="image/png" href="img/ikon.png">
+    <title>Famous Book Store</title>
+  </head>
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand fontbrand" href="index.html">
+        Famous
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarfachrul">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarfachrul">
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Cari Apa..." aria-label="Search">
+              <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Cari</button>
+          </form>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="service.html">Service</a> 
+          </li>
+          <li class="nav-item">
+            <a type="button" class="btn btn-info" href="log in.html"><i class="fas fa-user"></i> Log in</a> 
+          </li>
+          <li class="nav-item">
+            <a class="btn" href="cart.html" style="font-size:13px;"><i class="fas fa-shopping-cart fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav-->
+
+    <!-- Komplain -->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-11 col-md-9 col-lg-7 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center"><img src="img/customer-service.png" alt="customer-service" style="width:30px;"> Pusat Komplain</h5>
+                <form class="form-signin">
+
+                  <div class="form-tabel-group">
+                    <label for="inputnama" class="text-center"><i class="far fa-user"></i> Nama Akun</label>
+                    <input type="text" id="inputnama" class="form-control" placeholder="Masukan Nama Anda" required autofocus>
+                  </div>
+
+                  <div class="form-tabel-group">
+                    <label for="inputnoHP" class="text-center"><i class="fas fa-phone"></i> No HP</label>
+                    <input type="number" id="inputnoHP" class="form-control" placeholder="Masukan No HP Anda" required>
+                  </div>
+
+                  <div class="form-label-group">
+                    <label for="inputEmail" class="text-center"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Masukan Email Anda..." required>
+                  </div>
+
+                  <div class="form-label-group">
+                    <label for="inputsubjek" class="text-center"><img src="img/subjek.png" alt="subjek" style="width: 20px;"> Subjek</label>
+                    <input type="text" id="inputsubjek" class="form-control" placeholder="Isi Subjek..." required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputpesan" class="text-center"><img src="img/complaint.png" alt="komplaint" style="width: 20px;"></i> Penjelasan</label>
+                    <textarea name="pesan" class="form-control" placeholder="Isi Komplain dengan Jelas dan Bahasa yang Mudah di Pahami..." style="width: 100%; height: 150px;"></textarea>
+                  </div>
+
+                  <button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#notif">
+                    Kirim
+                  </button>
+                  <!--Modal-->
+                  <div class="modal fade" id="notif" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Terima Kasih</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Komplain Anda Telah di Kirim Ke Famous Book Store :)
+                        </div>
+                        <div class="modal-footer">
+                          <a type="button" class="btn btn-info" href="index.html">Selesai</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- selesai Komplain-->
+
+      <!-- Footer -->
+      <footer class="page-footer font-small">
+        <div class="container-fluid warna-text text-center">
+          <div class="row">
+            <div class="col-sm-3">
+                <h6><i class="fas fa-map-marker-alt"></i> Lokasi</h6>
+                <p>Jl. Sadewa no.9 RT.04/04 Kel.Pendirikan-Kidul, Kec.Semarang tengah, Kota-Semarang, Jawa tengah, Indonesia.</p>
+            </div>
+            <div class="col-sm-2">
+              <h6>Help <i class="far fa-question-circle"></i></h6>
+              <a href="about.html" style="color: rgb(27, 27, 27);">Tentang Kami</a>
+              <br>
+              <a href="service.html" style="color: rgb(27, 27, 27);">Pelayanan</a>
+              <br>
+              <a href="vip.html" style="color: rgb(27, 27, 27);">VIP Member</a>
+            </div>
+            <div class="col-sm-4">
+              <h6>Sosial media</h6>
+              <a class="btn" href="https://www.instagram.com/fachrulmustofa"><i class="fab fa-instagram fa-3x"></i></a>
+              <a class="btn" href="https://www.facebook.com/fachrul.m.5"><i class="fab fa-facebook-square fa-3x"></i></a>
+              <a class="btn" href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+              <a class="btn" href=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+            </div>
+            <div class="col-sm-3">
+                <h6>Kontak</h6>
+                <p><i class="far fa-envelope"></i> Email : fachrulmustofa100@gmail.com<br><i class="fas fa-phone-square"></i> No. Hp : 0896-5444-8847</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="text-center">
+                <a href="vipmember.html" class="btn btn-danger" style="border-radius: 1rem; box-shadow: 1px 2px 2px rgb(88, 76, 76);">Daftar VIP Member</a>
+              </div>
+            </div>
+          </div>
+          <hr style="height: 1px; width: 100%;">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="footer-copyright py-3">&copy; 2018 Copyright: <a href="https://www.instagram.com/fachrulmustofa" style="color: rgb(27, 27, 27);">Famous Company</a>
+               | All Rights Reserved
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Selesai Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="fontawesome5/svg-with-js/js/fontawesome-all.min.js"></script>
+</body>
+</html>
